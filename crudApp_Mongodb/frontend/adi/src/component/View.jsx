@@ -7,7 +7,7 @@ function View() {
         viewdata();
     },[])
     const viewdata=async()=>{
-        const res=await axios.get('https://crud-live-backend-ct63.onrender.com/users');
+        const res=await axios.get('https://crud-live-sh.onrender.com/users');
         console.log(res);
         setUsers(res.data);
     }

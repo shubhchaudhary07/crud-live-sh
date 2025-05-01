@@ -8,7 +8,7 @@ function Resister() {
             name:e.target.name.value,
             age:e.target.age.value
         }
-        await axios.post('https://crud-live-backend-ct63.onrender.com/users',user)
+        await axios.post('https://crud-live-sh.onrender.com/users',user)
         alert("data successfully save")
     }
   return (
